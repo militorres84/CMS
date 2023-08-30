@@ -12,21 +12,21 @@ export default function Homepage() {
       <h2 className="title">¿Por qué elegirnos?</h2>
       <div className="container-box">
         <div className="box">
-          <img src="./diseño.png" alt="" />
+          <img src="./img/diseño.png" alt="" />
           <h2>Diseños Increíbles</h2>
           <div className="container-p">
             <p>Cambia cómo se ve tu blog eligiendo colores, fuentes y bordes diferentes. Incluso podes tener control total del diseño.</p>
           </div>
         </div>
         <div className="box">
-          <img src="./facil-uso.png" alt="" />
+          <img src="./img/facil-uso.png" alt="" />
           <h2>Fácil de Usar</h2>
           <div className="container-p">
             <p>Organiza tus textos y fotos de manera sencilla. Añade muchas cosas, como fotos profesionales, música, videos, documentos y más.</p>
           </div>
         </div>
         <div className="box">
-          <img src="./plantillas.png" alt="" />
+          <img src="./img/plantillas.png" alt="" />
           <h2>Plantillas Personalizadas</h2>
           <div className="container-p">
             <p>Usa patrones ya preparados para hacer diseños llamativos en tus páginas y publicaciones.</p>
