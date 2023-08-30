@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
+
+*{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+body{
+    background-image: url('/frontend/vite-project/src/assets/register-image/fondo_celular.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 6rem;
+    padding: 1.5rem;
+}
+
+h1{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: left;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+.label-reg{
+    display: flex;
+    height: 1.5rem;
+    padding: .5rem;
+    font-family: 'Chivo', sans-serif;
+}
+
+.user-reg{
+    width: 15rem;
+    text-align: left;
+    color: grey;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0;
+    box-shadow: .1px 2px grey;
+}
+
+.register-more{
+    padding: 1rem;
+}
+
+.checkbox-reg{
+   background-color: #0038FF;
+}
+
+.register-text{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: left;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+.reg-btn{
+    width: 3.5rem;
+    height: 3rem;
+    float: right;
+   overflow: hidden;
+   position: relative;
+   right: 1.5rem;
+   bottom: 5rem;
+   border-radius: 20px;
+   background-image: linear-gradient(#7077a7, #A7ACD2);
+   border: 0;
+   color: white;
+   font-family: 'Dela Gothic One', cursive;
+}
+
+.social-media-btn{
+   display: flex;
+   justify-content: center;
+}
+
+.google-btn{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-image: linear-gradient(#FF3535,#FF6565);
+    border: 0;
+    margin: 1.5rem;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.facebook-btn{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-image: linear-gradient(#0038FF,#557AFF);
+    border: 0;
+    margin: 1.5rem;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.reg-deskopt-btn{
+    display: none;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: -.2rem .2rem 5px;
+}
+
+.checkbox {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 35px;
+    padding-left: 12px;
+    user-select: none;
+}
+
+.checkbox input{
+    position: relative;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #A7ACD2;
+    border-radius: 50%;
+  }
+
+  .checkbox:hover input ~ .checkmark {
+    background-color: #6d6161;
+  }
+
+  .checkbox input:checked ~ .checkmark {
+    background-image:linear-gradient(#7077a7, #A7ACD2);
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container .checkmark:after {
+    top: 9px;
+   left: 9px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: white;
+}
+  
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: url('/frontend/vite-project/src/assets/register-image/registro-fondo.png');
+        background-size: cover;
+    }
+
+    .logo{
+        width: 3rem;
+        float: right;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .container{
+        float: left;
+        padding: 2rem;
+        position: relative;
+        left: 7rem;
+    }
+
+    .user-reg{
+        background-color: #EAEAEA;
+        width: 18rem;
+        border-radius: 20px;
+    }
+
+    .register-text{
+        display: none;
+    }
+
+    .reg-btn{
+        display: none;
+    }
+
+    .reg-deskopt-btn{
+        display: flex;
+        position: relative;
+        left: 1.5rem;
+        width: 18rem;
+        height: 3rem;
+        border-radius: 20px;
+        background-image: linear-gradient(#7077a7,#A7ACD2);
+        color: white;
+        border: 0;
+        font-family: 'Dela Gothic One', cursive;
+    }
+
+    .social-media-btn{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .google-btn, .facebook-btn{
+        width: 5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    body{
+        background-image: url('/frontend/vite-project/src/assets/register-image/fondo_registro.png');
+        background-size: 1450px;
+    }
+
+    .logo{
+        width: 3rem;
+        float: right;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .container{
+        float: left;
+        padding: 5rem;
+        position: relative;
+        left: 2rem;
+    }
+
+    .user-reg{
+        background-color: #EAEAEA;
+        width: 18rem;
+        border-radius: 20px;
+    }
+
+    .register-text{
+        display: none;
+    }
+
+    .reg-btn{
+        display: none;
+    }
+
+    .reg-deskopt-btn{
+        width: 18rem;
+        height: 3rem;
+        border-radius: 20px;
+        background-image: linear-gradient(#7077a7,#A7ACD2);
+        color: white;
+        border: 0;
+        font-family: 'Dela Gothic One', cursive;
+    }
+    
+    .social-media-btn{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .google-btn, .facebook-btn{
+        width: 5rem;
+    }
+}
