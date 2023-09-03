@@ -1,9 +1,12 @@
 import React from 'react';
 import '../homepage/css/homepage.css'
+import Header from '../../components/header/header';
 
-export default function Homepage() {
+const Homepage = () => {
+  
   return (
     <>
+      <Header />
       <div className="purple-block">
       <div className="content-purple-block">
         <p>¿Estás listo<br />para empezar<br />a crear?</p>
@@ -13,21 +16,21 @@ export default function Homepage() {
       <h2 className="title">¿Por qué elegirnos?</h2>
       <div className="container-box">
         <div className="box">
-          <img src="./img/diseño.png" alt="" />
+          <img src="./diseño.png" alt="" />
           <h2>Diseños Increíbles</h2>
           <div className="container-p">
             <p>Cambia cómo se ve tu blog eligiendo colores, fuentes y bordes diferentes. Incluso podes tener control total del diseño.</p>
           </div>
         </div>
         <div className="box">
-          <img src="./img/facil-uso.png" alt="" />
+          <img src="./facil-uso.png" alt="" />
           <h2>Fácil de Usar</h2>
           <div className="container-p">
             <p>Organiza tus textos y fotos de manera sencilla. Añade muchas cosas, como fotos profesionales, música, videos, documentos y más.</p>
           </div>
         </div>
         <div className="box">
-          <img src="./img/plantillas.png" alt="" />
+          <img src="./plantillas.png" alt="" />
           <h2>Plantillas Personalizadas</h2>
           <div className="container-p">
             <p>Usa patrones ya preparados para hacer diseños llamativos en tus páginas y publicaciones.</p>
@@ -65,4 +68,6 @@ export default function Homepage() {
       
     </>
   );
-}
+} 
+
+export default Homepage
