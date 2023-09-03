@@ -50,7 +50,7 @@ export default function App() {
 
       <div className='text-center p-3' style={{ backgroundColor: '#8E9DCC' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
-        <a className='text-white' href='https://github.com/Ysluna/CMS'>
+        <a className='text-white' href='https://github.com/militorres84/CMS'>
           MDBootstrap.com
         </a>
       </div>
