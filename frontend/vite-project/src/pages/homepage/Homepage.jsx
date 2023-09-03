@@ -1,6 +1,7 @@
 import React from 'react';
 import '../homepage/css/homepage.css'
 import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 const Homepage = () => {
   
@@ -65,7 +66,9 @@ const Homepage = () => {
         </div>
       </div>
       
-      
+      <Footer/>
+
+    
     </>
   );
 } 

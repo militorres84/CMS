@@ -59,6 +59,52 @@ nav a:hover {
     margin-bottom: 5px;
   }
 }
+.footer-content {
+  width: 100%;
+  background-color: #D9D9D9;
+  margin: 0;
+  font-family: "Archivo Black", sans-serif;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-links {
+  padding: 0 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.footer-links h4 {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 10px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #7D84B2;
+  display: block;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+.footer-links ul li a:hover {
+  color: #94a573;
+  padding-left: 6px;
+}
+
 * {
   margin: 0;
   padding: 0;
