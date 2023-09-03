@@ -1,9 +1,12 @@
 import React from 'react';
 import '../homepage/css/homepage.css'
+import Header from '../../components/header/header';
 
-export default function Homepage() {
+const Homepage = () => {
+  
   return (
     <>
+      <Header />
       <div className="purple-block">
       <div className="content-purple-block">
         <p>¿Estás listo<br />para empezar<br />a crear?</p>
@@ -65,4 +68,6 @@ export default function Homepage() {
       
     </>
   );
-}
+} 
+
+export default Homepage
