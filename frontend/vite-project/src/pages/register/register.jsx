@@ -1,4 +1,7 @@
-function register() {
+import React from "react";
+import '../register/css/register.css'
+
+const register = () => {
     return (
         <div className="App">
             <div class="container">
