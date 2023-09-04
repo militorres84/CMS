@@ -1,1 +1,0 @@
-acá van los componentes, recuerden que son los reutilizables! como el footer o nav
