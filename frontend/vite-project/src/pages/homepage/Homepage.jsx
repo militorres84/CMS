@@ -1,5 +1,6 @@
 import React from 'react';
 import '../homepage/css/homepage.css'
+import Footer from '../../components/footer/footer'
 
 export default function Homepage() {
   return (
@@ -62,7 +63,7 @@ export default function Homepage() {
         </div>
       </div>
       
-      
+      <Footer/>
     </>
   );
 }
