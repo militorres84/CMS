@@ -1,6 +1,6 @@
 import React from 'react';
 import './_header.scss';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo-musa.jpg';
 
 export default function Header() {
   return (
