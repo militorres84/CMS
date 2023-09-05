@@ -1,17 +1,17 @@
 import React from 'react'
-import './css/Login.css'
+import './css/login.scss'
 
 const Login = () => {
   return (
     <body id="login-body">
-    <div>
-        <h1 className='txt'>¡Hola!</h1>
-        <div>
+    <div className='login-container'>
+        <h1 className='login-welcome-text'>¡Hola!</h1>
+        <div className='login-input-container'>
         <label for="username"
-        className="label-log">
+        className='login-username-label'>
         </label>
         <input
-            className="user-log" 
+            className="login-username-input" 
             id="username"
             name="username"
             type="text"
@@ -21,10 +21,10 @@ const Login = () => {
 
     <div>
         <label for="password"
-        className="label-log">
+        className="login-password-label">
         </label>
         <input
-            className="user-log"
+            className="login-password-input"
             id="password"
             name="password"
             type="password"
@@ -32,10 +32,9 @@ const Login = () => {
             required></input>
     </div>
 
-    <div className='checkbox-password-recover'>
+    <div className='checkbox-user-remember'>
         <label for="remember-username" 
-        className="remember-label">
-            Recuerdame
+        className="remember-user-checkbox">
         </label>
         <input type="checkbox" 
         name="recuerdame" 
@@ -68,7 +67,7 @@ const Login = () => {
 
     <div className='footer'>
         <p>¿No tienes una cuenta?</p>
-    <a href="#">Entrar como invitado</a>
+    <a href="#" className='enter-as-guest'>Entrar como invitado</a>
     </div>
 
     <div>

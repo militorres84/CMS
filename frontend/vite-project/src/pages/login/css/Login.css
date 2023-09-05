@@ -1,81 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
-
-
-.App {
-  justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Chivo', sans-serif;
-
-}
-
-#login-body {
-
-  background-image: url(../../../assets/login-mobile.jpeg);
-}
-
-.logo {
-  padding: .5rem;
-}
-
-.txt {
-  color: black;
-  font-family: 'Dela Gothic One', cursive;
-  position: relative;
-  right: 6rem;
-  top: 2rem;
-  margin: 2rem;
-  font-size: 2.5rem;
-}
-
-.App-header {
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap");
+.login-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-
-.label-log {
+.login-container .login-welcome-text {
+  width: 2rem;
+  position: relative;
+  right: 8rem;
+  top: 2rem;
+}
+.login-container .login-username-label {
   display: flex;
   height: 1.5rem;
-  padding: .5rem;
-  font-family: 'Chivo', sans-serif;
+  padding: 0.5rem;
+  font-family: "Chivo", sans-serif;
 }
-
-.user-log {
+.login-container .login-username-input {
   width: 15rem;
   text-align: left;
   color: grey;
   padding: 1rem;
   font-size: 1rem;
   border: 0;
-  box-shadow: .1px 2px grey;
+  box-shadow: 0.1px 2px grey;
 }
-
-.remember-label {
+.login-container .login-password-label {
+  display: flex;
+  height: 1.5rem;
+  padding: 0.5rem;
+  font-family: "Chivo", sans-serif;
+}
+.login-container .login-password-input {
+  width: 15rem;
+  text-align: left;
+  color: grey;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 0;
+  box-shadow: 0.1px 2px grey;
+}
+.login-container .checkbox-user-remember {
+  padding: 0.5rem;
+}
+.login-container .checkbox-user-remember::after {
+  content: "Recuerdame";
+  margin: 0.5rem;
+}
+.login-container .pass-recover {
   color: black;
-  padding: .5rem;
+  padding: 1rem;
 }
-
-.checkbox-password-recover {
-  padding: 2rem;
-}
-
-.log-text {
+.login-container .log-text {
   color: black;
-  font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
   position: relative;
   right: 2em;
   margin: 2rem;
   font-size: 2.5rem;
 }
-
-.log-btn {
+.login-container .log-btn {
   width: 3.5rem;
   height: 3rem;
   float: right;
@@ -84,96 +68,51 @@
   left: 2.5rem;
   bottom: 5rem;
   border-radius: 20px;
-  background-image: linear-gradient(#7077a7,#A7ACD2);
+  background-image: linear-gradient(#7077a7, #A7ACD2);
   border: 0;
   color: white;
-  font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
 }
-
-.p-continue {
+.login-container .social-media-btn {
+  display: inline;
+  position: relative;
+  bottom: 2rem;
+}
+.login-container .footer {
+  position: relative;
+  bottom: 2rem;
+}
+.login-container .enter-as-guest {
   color: black;
-  padding: .5rem;
-  position: relative;
-  top: 2rem;
-  left: 2rem;
 }
-
-.social-media-btn {
-  position: relative;
-  right: 1rem;
-  bottom: 3rem;
-}
-
-.google-btn {
-  width: 5rem;
-  height: 3rem;
-  border-radius: 20px;
-  background-image: linear-gradient(#FF3535,#FF6565);
-  border: 0;
-  margin: 1.5rem;
-  color: white;
-  font-family: 'Dela Gothic One', cursive;
-}
-
-.facebook-btn {
-  width: 5rem;
-  height: 3rem;
-  border-radius: 20px;
-  background-image: linear-gradient(#0038FF,#557AFF);
-  border: 0;
-  color: white;
-  font-family: 'Dela Gothic One', cursive;
-}
-
-.footer {
-  color: black;
-  position: relative;
-  bottom: 2.5rem;
-}
-
-.log-deskopt-btn {
+.login-container .log-deskopt-btn {
   display: none;
 }
 
-button:hover {
-  
-  cursor: pointer;
-  box-shadow: -.2rem .2rem 5px grey;
-}
-
 @media screen and (min-width: 992px) {
-  
-  #login-body {
-    background-image: url('../../../assets/login-responsive.jpeg');
-  }
-
-  .logo {
-    width: 3rem;
+  .login-container {
+    float: right;
     position: relative;
-    right: 35rem;
-}
-  .app-container {
-    position: relative;
-    left: 15rem;
-    bottom: 4rem;
+    right: 8rem;
   }
-
-  .user-log {
+  .login-username-input, .login-password-input {
     background-color: #EAEAEA;
     width: 18rem;
     border-radius: 20px;
-}
-
-  .social-media-btn {
+  }
+  .login-input-container {
     padding: 1.5rem;
-    position: relative;
-    left: 1.5rem;
   }
-
-  .footer {
+  .social-media-btn {
     position: relative;
-    left: 2rem;
-    bottom: 5rem;
+    bottom: 2rem;
   }
-  
+  .checkbox-user-remember {
+    margin: 0.5rem;
+  }
+  .enter-as-guest:hover {
+    color: #717ab3;
+  }
 }
+
+/*# sourceMappingURL=login.css.map */
