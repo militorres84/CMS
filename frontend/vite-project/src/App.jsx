@@ -3,7 +3,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom"
 import Homepage from './pages/homepage/Homepage.jsx'
 import Login from './pages/login/Login.jsx'
-import Register from './pages/register/Register.jsx'
+import Register from './pages/register/register'
 
 function App() {
   const [count, setCount] = useState(0)

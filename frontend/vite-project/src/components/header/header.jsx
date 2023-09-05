@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './_header.scss';
+import logo from '../../assets/logo.png';
 
 export default function Header() {
   return (
     <>
     <header>
+
         <a href="index.html" className="logo">
-          <img className="header-img" src="./logo.png" alt="cms logo" />
+          <img src={logo} alt="cms logo" />
         </a>
         <nav className="nav-content">
           <ul className="nav">
