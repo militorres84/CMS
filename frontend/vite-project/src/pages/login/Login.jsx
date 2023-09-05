@@ -3,6 +3,7 @@ import './css/Login.css'
 
 const Login = () => {
   return (
+    <body id="login-body">
     <div>
         <h1 className='txt'>¡Hola!</h1>
         <div>
@@ -10,7 +11,7 @@ const Login = () => {
         className="label-log">
         </label>
         <input
-            class="user-log" 
+            className="user-log" 
             id="username"
             name="username"
             type="text"
@@ -20,10 +21,10 @@ const Login = () => {
 
     <div>
         <label for="password"
-        class="label-log">
+        className="label-log">
         </label>
         <input
-            class="user-log"
+            className="user-log"
             id="password"
             name="password"
             type="password"
@@ -33,7 +34,7 @@ const Login = () => {
 
     <div className='checkbox-password-recover'>
         <label for="remember-username" 
-        class="remember-label">
+        className="remember-label">
             Recuerdame
         </label>
         <input type="checkbox" 
@@ -44,12 +45,12 @@ const Login = () => {
     </div>
 
     <div>
-        <a href="#" class="pass-recover">¿Olvidaste tu contraseña?</a>
+        <a href="#" className="pass-recover">¿Olvidaste tu contraseña?</a>
     </div>
 
     <div>
-        <p class="log-text">Entrar</p> 
-        <button class="log-btn"> &gt; </button>
+        <p className="log-text">Entrar</p> 
+        <button className="log-btn"> &gt; </button>
     </div>
 
     <div className='social-media-btn'>
@@ -57,9 +58,9 @@ const Login = () => {
         O continúa por...
     </p>
     <div>
-    <button class="google-btn">G
+    <button className="google-btn">G
     </button>
-    <button class="facebook-btn">F
+    <button className="facebook-btn">F
     </button>
     </div>
 
@@ -71,10 +72,11 @@ const Login = () => {
     </div>
 
     <div>
-        <button class="log-deskopt-btn">Entrar</button>
+        <button className="log-deskopt-btn">Entrar</button>
     </div>
 
     </div>
+    </body>
   )
 }
 

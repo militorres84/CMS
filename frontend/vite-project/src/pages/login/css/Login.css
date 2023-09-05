@@ -10,6 +10,11 @@
 
 }
 
+#login-body {
+
+  background-image: url(../../../assets/login-mobile.jpeg);
+}
+
 .logo {
   padding: .5rem;
 }
@@ -138,8 +143,8 @@ button:hover {
 
 @media screen and (min-width: 992px) {
   
-  body {
-    background-image: url('../public/login-background-responsive.png');
+  #login-body {
+    background-image: url('../../../assets/login-responsive.jpeg');
   }
 
   .logo {

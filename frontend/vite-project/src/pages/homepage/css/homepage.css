@@ -123,7 +123,7 @@ main {
 }
 
 .purple-block {
-  background-image: url("/background-purple-block.png");
+  background-image: url("../../../assets/background-purple-block.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -301,7 +301,7 @@ main {
   }
   .purple-block {
     margin-top: 57px;
-    background-image: url("/background-purple-block-mobile.png");
+    background-image: url("../../../assets/background-purple-block-mobile.png");
   }
   .content-purple-block p {
     font-size: 25px;

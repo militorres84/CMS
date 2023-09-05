@@ -1,35 +1,35 @@
 function register() {
     return (
         <div className="App">
-            <div class="container">
-            <label for="username" class="label-reg"></label>
-            <input class="user-reg" id="username" type="text" placeholder="Nombre de Usuario" required></input>
+            <div className="container">
+            <label for="username" className="label-reg"></label>
+            <input className="user-reg" id="username" type="text" placeholder="Nombre de Usuario" required></input>
             
-            <label for="email" class="label-reg"></label>
-            <input class="user-reg" id="email" type="email" placeholder="Correo Electronico" required></input>
+            <label for="email" className="label-reg"></label>
+            <input className="user-reg" id="email" type="email" placeholder="Correo Electronico" required></input>
 
-             <label for="password" class="label-reg"></label>
-             <input class="user-reg" id="password" type="password" placeholder="Contraseña" required></input>
+             <label for="password" className="label-reg"></label>
+             <input className="user-reg" id="password" type="password" placeholder="Contraseña" required></input>
         
-             <label for="password" class="label-reg"></label>
-             <input class="user-reg" id="password" type="password" placeholder="Confirmar Contraseña" required></input>
+             <label for="password" className="label-reg"></label>
+             <input className="user-reg" id="password" type="password" placeholder="Confirmar Contraseña" required></input>
             
              <br />
-             <div class="register_more">
-                <label class="checkbox">
-                <span class="checkmark"></span>
+             <div className="register_more">
+                <label className="checkbox">
+                <span className="checkmark"></span>
                 </label>
             </div>
 
-            <p class="register-text"> Crear </p>
-            <button class="reg-btn"> - </button> 
-             <button class="reg-deskopt-btn"> Crear </button>
+            <p className="register-text"> Crear </p>
+            <button className="reg-btn"> - </button> 
+             <button className="reg-deskopt-btn"> Crear </button>
             <p> 
              O continua con...
             </p>
-            <div class="social-media-btn">
-                <button class="google-btn">G</button>
-                <button class="facebook-btn">F</button>  
+            <div className="social-media-btn">
+                <button className="google-btn">G</button>
+                <button className="facebook-btn">F</button>  
             </div>
             <p><a href="#">¿Ya tienes una cuenta? </a></p>    
         </div>
