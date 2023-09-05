@@ -1,0 +1,84 @@
+.side-bar {
+  display: grid;
+  text-align: justify;
+}
+
+.Inicio-sesion {
+  display: flex;
+  text-align: center;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  font-family: "Chivo", sans-serif;
+}
+
+.List h2 {
+  background-color: #f0f0f0;
+  border-radius: 7px;
+  text-align: center;
+  font-size: small;
+  font-family: "Chivo", sans-serif;
+  padding: 20px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.List p {
+  text-align: center;
+  padding-top: 40px;
+  cursor: pointer;
+  font-family: "Chivo", sans-serif;
+}
+
+.navegation-bar {
+  background-color: #7d84b2;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.navegation-bar h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: "Dela Gothic One", cursive;
+  color: #f0f0f0;
+}
+
+.control {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-color: white;
+  border-radius: 20%;
+  font-family: "Chivo", sans-serif;
+}
+
+.text-categoria {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 12px;
+  font-family: "Chivo", sans-serif;
+}
+
+.Container-plantillas h2 {
+  margin-top: 50px;
+  font-family: "Chivo", sans-serif;
+}
+
+.Herramientas {
+  display: flex;
+  justify-content: space-around;
+  height: 180px;
+  cursor: pointer;
+}
+
+* {
+  background-color: #f9f9ed;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
