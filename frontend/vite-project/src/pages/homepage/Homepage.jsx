@@ -1,5 +1,5 @@
 import React from 'react';
-import '../homepage/css/homepage.css'
+import '../homepage/homepage.scss'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import Diseño from '../../assets/diseño.png';
