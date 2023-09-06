@@ -1,0 +1,46 @@
+@import "../../pages/homepage/css/var";
+
+.footer-content {
+    width: 100%;
+    background-color: $background-color_light;
+    margin: 0;
+    font-family: $font-family_title;
+    padding: 20px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-links {
+    padding: 0 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    h4 {
+        font-size: 15px;
+        color: $color_black;
+        margin-bottom: 10px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            a {
+                font-size: 12px;
+                text-decoration: none;
+                color: $color_purple;
+                display: block;
+                margin-bottom: 5px;
+                transition: all .3s ease;
+                &:hover {
+                    color: $color_darkgreen;
+                    padding-left: 6px;
+                }
+            }
+        }
+    }
+}

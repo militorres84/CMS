@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap");
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+.login-container .login-welcome-text {
+  width: 2rem;
+  position: relative;
+  right: 8rem;
+  top: 2rem;
+}
+.login-container .login-username-label {
+  display: flex;
+  height: 1.5rem;
+  padding: 0.5rem;
+  font-family: "Chivo", sans-serif;
+}
+.login-container .login-username-input {
+  width: 15rem;
+  text-align: left;
+  color: grey;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 0;
+  box-shadow: 0.1px 2px grey;
+}
+.login-container .login-password-label {
+  display: flex;
+  height: 1.5rem;
+  padding: 0.5rem;
+  font-family: "Chivo", sans-serif;
+}
+.login-container .login-password-input {
+  width: 15rem;
+  text-align: left;
+  color: grey;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 0;
+  box-shadow: 0.1px 2px grey;
+}
+.login-container .checkbox-user-remember {
+  padding: 0.5rem;
+}
+.login-container .checkbox-user-remember::after {
+  content: "Recuerdame";
+  margin: 0.5rem;
+}
+.login-container .pass-recover {
+  color: black;
+  padding: 1rem;
+}
+.login-container .log-text {
+  color: black;
+  font-family: "Dela Gothic One", cursive;
+  position: relative;
+  right: 2em;
+  margin: 2rem;
+  font-size: 2.5rem;
+}
+.login-container .log-btn {
+  width: 3.5rem;
+  height: 3rem;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  left: 2.5rem;
+  bottom: 5rem;
+  border-radius: 20px;
+  background-image: linear-gradient(#7077a7, #A7ACD2);
+  border: 0;
+  color: white;
+  font-family: "Dela Gothic One", cursive;
+}
+.login-container .social-media-btn {
+  display: inline;
+  position: relative;
+  bottom: 2rem;
+}
+.login-container .footer {
+  position: relative;
+  bottom: 2rem;
+}
+.login-container .enter-as-guest {
+  color: black;
+}
+.login-container .log-deskopt-btn {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .login-container {
+    float: right;
+    position: relative;
+    right: 8rem;
+  }
+  .login-username-input, .login-password-input {
+    background-color: #EAEAEA;
+    width: 18rem;
+    border-radius: 20px;
+  }
+  .login-input-container {
+    padding: 1.5rem;
+  }
+  .social-media-btn {
+    position: relative;
+    bottom: 2rem;
+  }
+  .checkbox-user-remember {
+    margin: 0.5rem;
+  }
+  .enter-as-guest:hover {
+    color: #717ab3;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */
