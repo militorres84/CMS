@@ -3,13 +3,14 @@ import React from 'react'
 export default function Dashboard() {
   return (
     <>
-          <div class="Side-bar">
-            <div class="Inicio-sesion">
+        <div className='container'>
+          <div className="Side-bar">
+            <div className="Inicio-sesion">
               <h2> Iniciar sesión </h2>
             </div>
-            <div class="List">
+            <div className="List">
               <h2> Probar versión pro </h2>
-              <div class="side-tool">
+              <div className="side-tool">
                 <p> Inicio </p>
                 <p> Proyectos </p>
                 <p> Plantillas </p>
@@ -18,10 +19,10 @@ export default function Dashboard() {
               </div>
             </div>
           </div> 
-          <div class="Center">
-            <div class="navegation-bar">
+          <div className="Center">
+            <div className="navegation-bar">
               <h2> ¿Qué quieres diseñar hoy? </h2>
-              <div class="container-fluid">
+              <div className="container-fluid">
                 <input 
                   class="control" 
                   type="text" 
@@ -30,7 +31,7 @@ export default function Dashboard() {
                   placeholder="Search">
                 </input>
               </div>
-              <div class="text-categoria">
+              <div className="text-categoria">
                 <p> Web </p>
                 <p> Mobile </p>
                 <p> Posts </p>
@@ -38,10 +39,11 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-          <div class="Container-plantillas">
+          <div className="Container-plantillas">
             <h2> Plantillas </h2> 
             <h2> Herramientas </h2> 
           </div>
+        </div>
     </>
   )
 }
