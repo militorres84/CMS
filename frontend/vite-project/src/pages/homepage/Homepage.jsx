@@ -1,5 +1,5 @@
 import React from 'react';
-import '../homepage/css/homepage.css'
+import '../homepage/homepage.scss'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import Diseño from '../../assets/diseño.png';
@@ -11,6 +11,7 @@ const Homepage = () => {
   return (
     <>
       <Header />
+      <body id="homepage-body">
       <div className="purple-block">
       <div className="content-purple-block">
         <p>¿Estás listo<br />para empezar<br />a crear?</p>
@@ -68,6 +69,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      </body>
 
       <Footer/>
     </>
