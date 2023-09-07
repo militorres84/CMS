@@ -1,11 +1,12 @@
-@import "../../pages/homepage/css/var";
+@import "../../pages/homepage/var";
 
 .footer-content {
     width: 100%;
     background-color: $background-color_light;
     margin: 0;
     font-family: $font-family_title;
-    padding: 20px 0;
+    padding: 10px 0;
+    overflow: hidden;
 }
 .container {
     max-width: 1200px;
