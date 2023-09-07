@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap");
-* {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Chivo", sans-serif;
-}
+
 
 body {
   background-image: url("../register-image/fondo_celular.png");
