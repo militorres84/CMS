@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("../register-image/fondo_celular.png");
+  background-image: url("/frontend/vite-project/src/assets/register-image/fondo_celular.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -114,7 +114,9 @@ button:hover {
   cursor: pointer;
   margin-bottom: 35px;
   padding-left: 12px;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .checkbox input {
@@ -162,7 +164,7 @@ button:hover {
 
 @media screen and (min-width: 992px) {
   body {
-    background-image: url("../register-image/registro-fondo.png");
+    background-image: url("/frontend/vite-project/src/assets/register-image/registro-fondo.png");
     background-size: cover;
   }
   .logo {
@@ -212,7 +214,7 @@ button:hover {
 }
 @media screen and (min-width: 1280px) {
   body {
-    background-image: url("../register-image/fondo_registro.png");
+    background-image: url("/frontend/vite-project/src/assets/register-image/fondo_registro.png");
     background-size: 1450px;
   }
   .logo {
@@ -256,6 +258,4 @@ button:hover {
   .google-btn, .facebook-btn {
     width: 5rem;
   }
-}
-
-/*# sourceMappingURL=register.css.map */
+}/*# sourceMappingURL=register.css.map */
