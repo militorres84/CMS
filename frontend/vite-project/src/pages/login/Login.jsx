@@ -1,13 +1,16 @@
 import React from 'react'
 import './css/login.scss'
+import logo from '../../assets/logo-musa.jpg'
 
 const Login = () => {
   return (
-    <body id="login-body">
+    <div className='login-app-container'>
+        <img src={logo} className='login-logo' alt="cms logo" />
     <div className='login-container'>
+    
         <h1 className='login-welcome-text'>¡Hola!</h1>
         <div className='login-input-container'>
-        <label for="username"
+        <label htmlFor="username"
         className='login-username-label'>
         </label>
         <input
@@ -20,7 +23,7 @@ const Login = () => {
     </div>
 
     <div>
-        <label for="password"
+        <label htmlFor="password"
         className="login-password-label">
         </label>
         <input
@@ -73,9 +76,9 @@ const Login = () => {
     <div>
         <button className="log-deskopt-btn">Entrar</button>
     </div>
-
     </div>
-    </body>
+    </div>
+    
   )
 }
 
