@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
+
+.body-register{ 
+background-image: url(../../../assets/register-image/fondo_celular.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+.container-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Chivo';
+
+
+.welcome-register-text{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.label-reg{
+    display: flex;
+    height: 1.5rem;
+    padding: .5rem;
+    font-family: 'Chivo', sans-serif;
+}
+
+.user-reg{
+    width: 15rem;
+    text-align: center;
+    color: grey;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0;
+    box-shadow: .1px 2px grey;
+}
+
+.label-checkbox-reg{
+    position: relative;
+    padding: .5rem;
+    right: 4rem;
+}
+
+.register-text{
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+    position: relative;
+    right: 8rem;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+.reg-btn{
+    width: 3.5rem;
+    height: 3rem;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    left: 8rem;
+    bottom: 5rem;
+    border-radius: 20px;
+    background-image: linear-gradient(#7077a7,#A7ACD2);
+    border: 0;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.socialmedia-btn{
+    display: inline;
+    position: relative;
+    bottom: 2rem; 
+}
+
+.socialmedia-text{
+    color: black;
+    font-family: 'Chivo';
+    right: 1em;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.google-btn{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-image: linear-gradient(#FF3535,#FF6565);
+    border: 0;
+    margin: 1.5rem;
+    color: white;
+    font-family: 'Dela Gothic One';
+}
+
+.facebook-btn{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-image: linear-gradient(#0038FF,#557AFF);
+    border: 0;
+    margin: 1.5rem;
+    color: white;
+    font-family: 'Dela Gothic One';
+}
+
+
+.reg-deskopt-btn{
+    display: none;
+}
+
+.login-sesion{
+    color: black;
+    padding: 3rem;
+    float: center;
+    height: .1rem;
+    font-family: 'Chivo';
+}
+}
+}
+
+@media screen and (min-width: 780px) {
+
+    .body-register{
+        background-image: url(../../../assets/register-image/registro-fondo.png);
+        float: left;
+        position: relative;
+        left: 8rem;
+    }
+    
+    .label-reg .user-reg{
+            width: 18rem;
+            border-radius: 20px;
+    } 
+
+    .socialmedia-btn{
+        position: relative;
+        bottom: 2rem; 
+    }
+
+    .checked{
+        margin: .5rem;
+    }
+
+}

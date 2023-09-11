@@ -1,139 +1,126 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap");
-.register-box {
+.body-register {
+  background-image: url(../../../assets/register-image/fondo_celular.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.body-register .container-register {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
 }
-.register-box .welcome-register {
-  font-family: "Dela Gothic One";
-  text-align: left;
-  margin: 2rem;
+.body-register .container-register .welcome-register-text {
+  font-family: "Dela Gothic One", cursive;
+  text-align: right;
   font-size: 2.5rem;
 }
-.register-box .label-register-ussername {
+.body-register .container-register .label-reg {
   display: flex;
   height: 1.5rem;
   padding: 0.5rem;
   font-family: "Chivo", sans-serif;
 }
-.register-box .input-register-ussername {
+.body-register .container-register .user-reg {
   width: 15rem;
-  text-align: left;
+  text-align: center;
   color: grey;
   padding: 1rem;
   font-size: 1rem;
   border: 0;
   box-shadow: 0.1px 2px grey;
 }
-.register-box .label-register-email {
-  display: flex;
-  height: 1.5rem;
+.body-register .container-register .label-checkbox-reg {
+  position: relative;
   padding: 0.5rem;
-  font-family: "Chivo", sans-serif;
+  right: 4rem;
 }
-.register-box .input-register-email {
-  width: 15rem;
-  text-align: left;
-  color: grey;
-  padding: 1rem;
-  font-size: 1rem;
-  border: 0;
-  box-shadow: 0.1px 2px grey;
-}
-.register-box .label-register-password {
-  display: flex;
-  height: 1.5rem;
-  padding: 0.5rem;
-  font-family: "Chivo", sans-serif;
-}
-.register-box .input-register-password {
-  width: 15rem;
-  text-align: left;
-  color: grey;
-  padding: 1rem;
-  font-size: 1rem;
-  border: 0;
-  box-shadow: 0.1px 2px grey;
-}
-.register-box .label-register-passwordconfirmed {
-  display: flex;
-  height: 1.5rem;
-  padding: 0.5rem;
-  font-family: "Chivo", sans-serif;
-}
-.register-box .input-register-passwordconfirmed {
-  width: 15rem;
-  text-align: left;
-  color: grey;
-  padding: 1rem;
-  font-size: 1rem;
-  border: 0;
-  box-shadow: 0.1px 2px grey;
-}
-.register-box .checkbox-terms-and-conditions {
-  padding: 0.5rem;
-}
-.register-box .checkbox-terms-and-conditions::after {
-  content: "Aceptar terminos y condiciones.";
-  margin: 0.5rem;
-}
-.register-box .register-text {
+.body-register .container-register .register-text {
   color: black;
   font-family: "Dela Gothic One", cursive;
   position: relative;
-  right: 2em;
+  right: 8rem;
   margin: 2rem;
   font-size: 2.5rem;
 }
-.register-box .register-btn {
+.body-register .container-register .reg-btn {
   width: 3.5rem;
   height: 3rem;
-  float: right;
+  float: left;
   overflow: hidden;
   position: relative;
-  left: 2.5rem;
+  left: 8rem;
   bottom: 5rem;
   border-radius: 20px;
   background-image: linear-gradient(#7077a7, #A7ACD2);
   border: 0;
   color: white;
-  font-family: "Dela Gothic One";
+  font-family: "Dela Gothic One", cursive;
 }
-.register-box .social-media {
+.body-register .container-register .socialmedia-btn {
   display: inline;
   position: relative;
   bottom: 2rem;
 }
-.register-box .existing-account {
-  position: relative;
-  bottom: 2rem;
-}
-.register-box .login-sesion {
+.body-register .container-register .socialmedia-text {
   color: black;
+  font-family: "Chivo";
+  right: 1em;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
-.register-box .register-btn-deskopt {
+.body-register .container-register .google-btn {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-image: linear-gradient(#FF3535, #FF6565);
+  border: 0;
+  margin: 1.5rem;
+  color: white;
+  font-family: "Dela Gothic One";
+}
+.body-register .container-register .facebook-btn {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-image: linear-gradient(#0038FF, #557AFF);
+  border: 0;
+  margin: 1.5rem;
+  color: white;
+  font-family: "Dela Gothic One";
+}
+.body-register .container-register .reg-deskopt-btn {
   display: none;
 }
+.body-register .container-register .login-sesion {
+  color: black;
+  padding: 3rem;
+  float: center;
+  height: 0.1rem;
+  font-family: "Chivo";
+}
 
-@media screen and (min-width: 992px) {
-  .register-box {
-    float: right;
+@media screen and (min-width: 780px) {
+  .body-register {
+    background-image: url(../../../assets/register-image/registro-fondo.png);
+    float: left;
     position: relative;
-    right: 8rem;
+    left: 8rem;
   }
-  .input-register-ussername, .input-register-email, .input-register-password, .input-register-passwordconfirmed {
-    background-color: #EAEAEA;
+  .label-reg .user-reg {
     width: 18rem;
     border-radius: 20px;
   }
-  .register-usser-email {
-    padding: 1.5rem;
-  }
-  .social-media {
+  .socialmedia-btn {
     position: relative;
     bottom: 2rem;
   }
-  .checkbox-terms-and-conditions {
+  .checked {
     margin: 0.5rem;
   }
-}/*# sourceMappingURL=register.css.map */
+}
+
+/*# sourceMappingURL=register.css.map */
