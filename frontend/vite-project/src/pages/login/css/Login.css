@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap");
+
 .login-container {
   display: flex;
   flex-direction: column;
