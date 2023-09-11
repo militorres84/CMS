@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom"
 import Login from './pages/login/Login.jsx'
 import Homepage from './pages/homepage/Homepage.jsx'
-import Register from './pages/register/register'
+import Register from './pages/register/register.jsx'
 import Dashboard from './pages/dashboard/Dashboard.jsx'
 
 function App() {
