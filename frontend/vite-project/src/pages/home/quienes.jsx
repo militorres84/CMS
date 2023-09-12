@@ -18,6 +18,8 @@ return (
         hemos creado una pagina CMS donde podras postear tus fotos favoritas de forma sencilla y facil.</p></div>
         </div>
 </div>
+
+<Footer/>
 </>
    
 );
