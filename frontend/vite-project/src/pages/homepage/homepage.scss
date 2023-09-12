@@ -30,11 +30,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+	padding-top: 50px;
     padding-bottom: 90px;
     text-align: center;
-	  line-height: 1.4;
-	  font-family: $font-family_body;
-	  font-size: 28px;
+	line-height: 1.4;
+	font-family: $font-family_body;
+	font-size: 28px;
     margin-bottom: 20px;
     
   }
@@ -96,6 +97,7 @@ main {
 		margin-top: 12px;
 		transform: translateY(150px);
 		transition: all 600ms;
+		margin-top: 10px;
 	}
 	&:hover {
 		background: #cbcbf5;
