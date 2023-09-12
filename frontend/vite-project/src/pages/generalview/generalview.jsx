@@ -1,4 +1,5 @@
 import React from 'react';
+import './Generalview.scss';
 
 const Generalview = () => {
     return(
@@ -31,4 +32,4 @@ const Generalview = () => {
     
 }
 
-export default Generalview
+export default Generalview;
