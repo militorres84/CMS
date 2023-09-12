@@ -1,3 +1,11 @@
+@import "../homepage/var";
+
 .section{
     text-align: center;
+}
+
+.explicacion {
+    h2 {
+     font-family: $font-family_updates;
+    }
 }
