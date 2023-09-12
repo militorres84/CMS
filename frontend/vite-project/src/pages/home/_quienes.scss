@@ -1,0 +1,17 @@
+@import "../homepage/var";
+
+.section{
+    text-align: center;
+}
+
+.explicacion {
+    h2 {
+     font-family: $font-family_body;
+     font-size: 35px;
+    }
+}
+
+.text {
+    font-family: $font-family_updates;
+    font-size: 25px;
+}

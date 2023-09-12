@@ -1,0 +1,24 @@
+import React from 'react';
+import './_tuto.scss';
+import Footer from '../../components/footer/footer';
+
+const Tutorial = () => {
+
+return (
+<>
+        <div className='block'>
+        <div className='tittle'>
+            <h2>¿Como crear un posteo?</h2>
+            <div className='textp'>
+                
+            </div>
+        </div>
+    </div>
+    
+    <Footer/>
+</>
+
+);
+
+
+}
