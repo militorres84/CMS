@@ -1,9 +1,11 @@
 import React from 'react';
 import './_quienes.scss';
+import Footer from '../../components/footer/footer';
 
 const Grupo = () => {
 
 return (    
+    <> 
     
     <div className='section'>
     <div className='explicacion'>
@@ -16,7 +18,8 @@ return (
         hemos creado una pagina CMS donde podras postear tus fotos favoritas de forma sencilla y facil.</p></div>
         </div>
 </div>
-
+</>
+   
 );
 
 }
