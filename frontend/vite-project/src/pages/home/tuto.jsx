@@ -6,9 +6,12 @@ const Tutorial = () => {
 
 return (
 <>
-        <div>
+        <div className='block'>
         <div className='tittle'>
             <h2>¿Como crear un posteo?</h2>
+            <div className='textp'>
+                
+            </div>
         </div>
     </div>
     

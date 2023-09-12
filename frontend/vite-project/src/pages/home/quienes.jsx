@@ -15,7 +15,8 @@ return (
         <br/>
         que forman parte del bootcam conjunto entre "Fundacion Empujar" y "Somos Coders". 
         <br />
-        hemos creado una pagina CMS donde podras postear tus fotos favoritas de forma sencilla y facil.</p></div>
+        hemos creado una pagina CMS donde podras postear tus fotos favoritas de forma sencilla y facil.</p>
+        </div>
         </div>
 </div>
 
