@@ -1,10 +1,9 @@
 import React from 'react';
 
-const generalview = () =>{
+const Generalview = () =>{
     return(
         <body id='generalview-body'>
             <div className='header-view'>
-                <img src={logo} className='logo-view' alt="cms logo" />
                 <button className='view-add'>
                     + Añadir
                 </button>
@@ -18,7 +17,7 @@ const generalview = () =>{
 
             <div className='view-menu'>
                <div className='menu-items'>
-                <a href="#"> - </a>
+               <a href="#"> - </a>
                 <a href="#"> - </a>
                 <a href="#"> - </a>
                 <a href="#"> - </a>
@@ -30,4 +29,4 @@ const generalview = () =>{
     
 }
 
-export default generalview
+export default Generalview
