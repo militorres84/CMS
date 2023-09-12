@@ -14,7 +14,7 @@ const Homepage = () => {
       <body id="homepage-body">
       <div className="purple-block">
       <div className="content-purple-block">
-        <p>¿Estás listo<br />para empezar<br />a crear?</p>
+        <p>¿Estás listo<br />para empezar?<br /></p>
         
       </div>
       </div>
@@ -22,23 +22,23 @@ const Homepage = () => {
       <div className="container-box">
         <div className="box">
           <img src={Diseño} alt="" />
-          <h2>Diseños Increíbles</h2>
+          <h2>Comparte e Inspira</h2>
           <div className="container-p">
-            <p>Cambia cómo se ve tu blog eligiendo colores, fuentes y bordes diferentes. Incluso podes tener control total del diseño.</p>
+            <p>Comparte tus ideas e imágenes de forma instantánea y sin complicaciones. Tu creatividad merece ser vista</p>
           </div>
         </div>
         <div className="box">
           <img src={FacilUso} alt="" />
           <h2>Fácil de Usar</h2>
           <div className="container-p">
-            <p>Organiza tus textos y fotos de manera sencilla. Añade muchas cosas, como fotos profesionales, música, videos, documentos y más.</p>
+            <p>Con nuestro CMS, compartir tus ideas y fotos es tan sencillo con un par de clics.</p>
           </div>
         </div>
         <div className="box">
           <img src={Plantillas} alt="" />
-          <h2>Plantillas Personalizadas</h2>
+          <h2>¡Conecta con tus amigos!</h2>
           <div className="container-p">
-            <p>Usa patrones ya preparados para hacer diseños llamativos en tus páginas y publicaciones.</p>
+            <p> Musa te permite seguir a tus amigos y conocidos, manteniendo siempre la cercanía en la era digital.</p>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ const Homepage = () => {
             noticias o decir lo que se te pase
             por la cabeza,
             <br />
-            en " " estás muy bien acompañado.
+            en Musa estás muy bien acompañado.
             <br />
             Registrate para saber por qué millones de personas
             han escrito sobre lo que les apasiona
