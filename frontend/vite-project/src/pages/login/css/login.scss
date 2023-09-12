@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
 
-#login-body {
+
+
+.login-app-container{
     background-image: url('../../../assets/login-mobile.jpeg');
+    background-repeat: no-repeat;
+
+    
+
+    .login-logo {
+        width: 10rem;
+        padding: 1rem;
+        border-radius: 50%;
+        position: relative;
+        left: 9rem;
+        top: 2rem;
+    }
+
     .login-container {
         display: flex;
         flex-direction: column;
@@ -13,10 +28,13 @@
         
     
         .login-welcome-text {
-            width: 2rem;
+            font-family: 'Dela Gothic One', cursive;
+            text-align: right;
             position: relative;
-            right: 8rem;
-            top: 2rem;
+            top: 1rem;
+            right: 6rem;
+            padding: 1.5rem;
+            font-size: 2.5rem;
         }
     
         .login-username-label {
@@ -93,6 +111,28 @@
             position: relative;
             bottom: 2rem;
         }
+
+        .google-btn{
+            width: 5rem;
+            height: 3rem;
+            border-radius: 20px;
+            background-image: linear-gradient(#FF3535,#FF6565);
+            border: 0;
+            margin: 1.5rem;
+            color: white;
+            font-family: 'Dela Gothic One', cursive;
+        }
+        
+        .facebook-btn{
+            width: 5rem;
+            height: 3rem;
+            border-radius: 20px;
+            background-image: linear-gradient(#0038FF,#557AFF);
+            border: 0;
+            margin: 1.5rem;
+            color: white;
+            font-family: 'Dela Gothic One', cursive;
+        }
     
         .footer {
             position: relative;
@@ -110,11 +150,27 @@
     
     @media screen and (min-width: 768px) {
 
-    
-        .login-container {
+
+        .login-logo {
+            width: 7rem;
+            padding: 0;
+            margin: 0;
+            display: flex;
             float: right;
             position: relative;
-            right: 8rem;
+            left: -2rem;
+            box-shadow: #717ab3 3px 5px 3px;
+        }
+
+    
+        .login-container {
+            width: 25rem;
+            margin: 3rem;
+            background-image: url('../../../assets/login-background.png');
+            border-radius: 25px;
+            background-repeat: no-repeat;
+            float: right;
+
         }
     
         .login-username-input, .login-password-input {
