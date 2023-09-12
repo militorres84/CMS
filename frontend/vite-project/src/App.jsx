@@ -4,6 +4,8 @@ import Login from './pages/login/Login.jsx'
 import Homepage from './pages/homepage/Homepage.jsx'
 import Register from './pages/register/register.jsx'
 import Dashboard from './pages/dashboard/Dashboard.jsx'
+import Generalview from './pages/generalview/generalview.jsx'
+import Pagespost from './pages/pagespost/Pagespost.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +19,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/generalview' element={<Generalview />} />
+        <Route path='/pagespost' element={<Pagespost />}/>
       </Routes>
       </BrowserRouter>
     </>

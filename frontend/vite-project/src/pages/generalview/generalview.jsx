@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Generalview = () =>{
+const Generalview = () => {
     return(
+        <>
         <body id='generalview-body'>
             <div className='header-view'>
                 <button className='view-add'>
@@ -17,7 +18,7 @@ const Generalview = () =>{
 
             <div className='view-menu'>
                <div className='menu-items'>
-               <a href="#"> - </a>
+                <a href="#"> - </a>
                 <a href="#"> - </a>
                 <a href="#"> - </a>
                 <a href="#"> - </a>
@@ -25,6 +26,7 @@ const Generalview = () =>{
                 </div>
              </div>
         </body>
+        </>
     )
     
 }
