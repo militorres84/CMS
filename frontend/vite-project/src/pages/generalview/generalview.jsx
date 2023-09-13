@@ -3,8 +3,7 @@ import './Generalview.scss';
 
 const Generalview = () => {
     return(
-        <>
-        <body id='generalview-body'>
+        <div id='generalview-body'>
             <div className='header-view'>
                 <button className='view-add'>
                     + Añadir
@@ -26,8 +25,7 @@ const Generalview = () => {
                 <button className='close-menu'> Cerrar menu </button>
                 </div>
              </div>
-        </body>
-        </>
+        </div>
     )
     
 }
