@@ -1,14 +1,5 @@
-.generalview-body{
-    display: flex;
-    gap: 50px;
-    background-color: red;
+@import './../homepage/var';
 
-    .content{
-        flex: 5;
-        font-size: larger;
-    }
-
-    .menu{
-        flex: 2;
-    }
+#generalview-body{
+    background-color: $background-color_purple ;
 }
