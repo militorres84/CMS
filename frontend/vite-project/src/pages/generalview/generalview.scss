@@ -1,0 +1,14 @@
+.generalview-body{
+    display: flex;
+    gap: 50px;
+    background-color: red;
+
+    .content{
+        flex: 5;
+        font-size: larger;
+    }
+
+    .menu{
+        flex: 2;
+    }
+}

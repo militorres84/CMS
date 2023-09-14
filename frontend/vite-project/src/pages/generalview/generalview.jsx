@@ -1,4 +1,5 @@
 import React from 'react';
+import '../generalview/generalview.scss';
 
 const Generalview = () =>{
     return(
@@ -24,6 +25,29 @@ const Generalview = () =>{
                 <button className='close-menu'> Cerrar menu </button>
                 </div>
              </div>
+
+            <div className='write'>
+                <div className='content'>
+                    <input type="text" placeholder='title' />
+                    <div className='editorContainer'>
+
+                    </div>
+                </div>
+                <div className='menu'>
+                    <div className='item'>i1</div>
+                    <div className='item'>i2</div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
         </body>
     )
     
