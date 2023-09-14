@@ -4,7 +4,7 @@ import './Pagespost.scss';
 
 const Pagespost = () =>{
     return(
-    <body id="pagespost-body">
+    <div id="pagespost-body">
         
         <div className="header-pagespost">
             <div className="componentes-pagespost">
@@ -35,7 +35,7 @@ const Pagespost = () =>{
             <Postcomponent />
         </div>
 
-    </body>
+    </div>
     )
 }
 
