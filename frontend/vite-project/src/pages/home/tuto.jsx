@@ -10,7 +10,7 @@ return (
         <div className='tittle'>
             <h2>¿Como crear un posteo?</h2>
             <div className='textp'>
-                
+                <p></p>
             </div>
         </div>
     </div>
