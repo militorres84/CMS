@@ -1,29 +1,44 @@
 import React from "react"
 import './css/_register.scss'
+import logo from '../../assets/logo-musa.jpg'
 
-function Register() {
+const Register= () => {
     return (
         <div className="body-register">
+            <img src={logo} className="register-logo" alt="cms logo" />
             <div className="container-register">
 
                 <div className="welcome-register">
                     <h1 className="welcome-register-text"> ¡Bienvenidos! </h1>
                 </div>
 
-            <label className="label-reg"></label>
-            <input className="user-reg" id="username" type="text" placeholder="Nombre de Usuario" required></input>
+            <label htmlFor="username"
+            className="label-reg"></label>
+            <input className="user-reg" 
+                   id="username" 
+                   type="text" 
+                   placeholder="Nombre de Usuario" 
+                   required></input>
             
-            <label className="label-reg"></label>
-            <input className="user-reg" id="email" type="email" placeholder="Correo Electronico" required></input>
+            <label htmlFor="email"
+            className="label-reg"></label>
+            <input className="user-reg" 
+                   id="email" 
+                   type="email" 
+                   placeholder="Correo Electronico" 
+                   required></input>
 
-            <label className="label-reg"></label>
+            <label htmlFor="password" 
+            className="label-reg"></label>
             <input className="user-reg" id="password" type="password" placeholder="Contraseña" required></input>
         
-            <label className="label-reg"></label>
+            <label htmlFor="password" 
+            className="label-reg"></label>
             <input className="user-reg" id="confirm-password" type="password" placeholder="Confirmar Contraseña" required></input>
 
             <div className="checkbox-terms-and-conditions">
-                <label className="label-checkbox-reg">
+                <label htmlFor="checkbox"
+                className="label-checkbox-reg">
                 </label>
                 <input className="checked"
                         type="checkbox"
@@ -46,7 +61,7 @@ function Register() {
             <p><a href="#" className="login-sesion">¿Ya tienes una cuenta? </a></p>    
     </div>
    </div> 
-    );
+    )
 }
 
 export default Register

@@ -6,6 +6,16 @@ background-image: url(../../../assets/register-image/fondo_celular.png);
 background-size: cover;
 background-repeat: no-repeat;
 
+
+.register-logo{
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 50%;
+    position: relative;
+    left: 9rem;
+    top: 2rem;
+}
+
 .container-register{
     display: flex;
     flex-direction: column;
@@ -18,6 +28,9 @@ background-repeat: no-repeat;
 .welcome-register-text{
     font-family: 'Dela Gothic One', cursive;
     text-align: right;
+    position: relative;
+    top: 1rem;
+    padding: 1.5rem;
     font-size: 2.5rem;
 }
 
@@ -39,16 +52,20 @@ background-repeat: no-repeat;
 }
 
 .label-checkbox-reg{
-    position: relative;
     padding: .5rem;
-    right: 4rem;
+    &::after {content: "Aceptar terminos y condiciones.";
+        margin: .5rem;}
+}
+
+.checked{
+    right: .5rem;
 }
 
 .register-text{
     color: black;
     font-family: 'Dela Gothic One', cursive;
     position: relative;
-    right: 8rem;
+    right: 2rem;
     margin: 2rem;
     font-size: 2.5rem;
 }
@@ -117,21 +134,36 @@ background-repeat: no-repeat;
     font-family: 'Chivo';
 }
 }
-}
 
 @media screen and (min-width: 780px) {
 
+    .login-logo {
+        width: 7rem;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        float: right;
+        position: relative;
+        left: -2rem;
+        box-shadow: #717ab3 3px 5px 3px;
+    }
+
     .body-register{
-        background-image: url(../../../assets/register-image/registro-fondo.png);
+        background-image: url(../../../assets/register-image/fondo_celular.png);
         float: left;
         position: relative;
         left: 8rem;
     }
     
     .label-reg .user-reg{
+            background-color: #EAEAEA;
             width: 18rem;
             border-radius: 20px;
     } 
+
+    .label-reg{
+        padding: 1.5rem;
+    }
 
     .socialmedia-btn{
         position: relative;
@@ -142,4 +174,6 @@ background-repeat: no-repeat;
         margin: .5rem;
     }
 
+
+}
 }
