@@ -1,0 +1,17 @@
+@import "../homepage/var";
+
+.block {
+    text-align: center;
+}
+
+.tittle {
+    h2 {
+        font-family: $font-family_body;
+     font-size: 35px;
+    }
+}
+
+.textp {
+    font-family: $font-family_updates;
+    font-size: 25px;
+}
