@@ -7,12 +7,12 @@ export default function Header() {
     <>
     <header>
 
-        <a href="index.html" className="logo">
+        <a href="/" className="logo">
           <img src={logo} alt="cms logo" />
         </a>
         <nav className="nav-content">
           <ul className="nav">
-            <li><a href="#">INICIAR SESIÓN</a></li>
+            <li><a href="/login">INICIAR SESIÓN</a></li>
             <li className="buttom-blog"><a href="#">Crea tu blog</a></li>
           </ul>
         </nav>
