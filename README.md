@@ -13,11 +13,21 @@
 ![Javascript](https://img.shields.io/badge/-JavaScript-EDD222?style=flat&logo=javascript&logoColor=white)
 ![Sass](https://img.shields.io/badge/-Sass-C76494?style=flat&logo=sass&logoColor=white
 )
+![React](https://img.shields.io/badge/-React-5ED3F3?style=flat&logo=React&logoColor=5ED3F3&color=%23F7F7F7
+)
+![Node.js](https://img.shields.io/badge/-Node-%236AA05C?style=flat&logo=Node.js&logoColor=%236AA05C&color=%23313131
+)
+![MySQL](https://img.shields.io/badge/-MySql-EA8C10?style=flat&logo=MySQL&logoColor=EA8C10&color=%23F7F7F7)
+
 
 #### Herramientas:
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-Github-181717?style=flat&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-%239D56F7?style=flat&logo=Figma&logoColor=%239D56F7&color=%23F7F7F7)
+![Trello](https://img.shields.io/badge/-Trello-%230E61D8?style=flat&logo=Trello&logoColor=%230E61D8&color=%23F7F7F7
+)
+
 
 ## Autoras
 
