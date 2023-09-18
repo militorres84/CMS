@@ -1,3 +1,5 @@
+@import '../homepage/var';
+
 .side-bar {
   display: grid;
   text-align: justify;
@@ -9,7 +11,11 @@
   padding-left: 50px;
   padding-bottom: 40px;
   cursor: pointer;
-  font-family: "Chivo", sans-serif;
+  font-family: $font-family_body;
+}
+
+.side-tool {
+  color:$background-color_purple;
 }
 
 .List h2 {
@@ -23,7 +29,6 @@
 }
 
 .List p {
-  text-align: center;
   padding-top: 40px;
   cursor: pointer;
   font-family: "Chivo", sans-serif;
@@ -60,25 +65,7 @@
   cursor: pointer;
   margin-bottom: 20px;
   margin-left: 12px;
-  font-family: "Chivo", sans-serif;
+  font-family: $font-family_buttoms;
 }
 
-.Container-plantillas h2 {
-  margin-top: 50px;
-  font-family: "Chivo", sans-serif;
-}
 
-.Herramientas {
-  display: flex;
-  justify-content: space-around;
-  height: 180px;
-  cursor: pointer;
-}
-
-container {
-  background-color: #f9f9ed;
-  display: grid;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}

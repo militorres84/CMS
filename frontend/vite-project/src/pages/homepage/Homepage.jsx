@@ -4,7 +4,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import Diseño from '../../assets/diseño.png';
 import FacilUso from '../../assets/facil-uso.png';
-import Plantillas from '../../assets/plantillas.png'
+import Plantillas from '../../assets/plantillas.png';
 
 const Homepage = () => {
   
