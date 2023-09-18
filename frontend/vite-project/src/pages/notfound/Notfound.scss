@@ -1,0 +1,35 @@
+@import './../homepage/var';
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+#Notfound-body{
+    background-color: $background-color_body ;
+    font-family: 'Dela Gothic One';
+}
+
+.notfound-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   height: calc(100vh - 100px);
+   width: 100%;
+}
+
+.notfound-message{
+    text-align: center;
+    color: $color_purple;
+    margin: 0px;
+
+    .title-firts-error{
+        font-size: 50px;
+    }
+
+    .title-error{
+        font-size: 50px;
+    }
+
+    .sub-title-error{
+        font-size: 20px;
+    }
+}
