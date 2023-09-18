@@ -1,13 +1,6 @@
 # Proyecto de CMS grupal
 > Este proyecto fue creado para el curso de Desarrollo Web Full Stack de [SomosCoders](https://somoscoders.org/es) & [Fundación Empujar](https://fundacionempujar.org/)
 
-## Visión General
-> Los usuarios deberían ser capaces de:
-
-- Ver el diseño óptimo del sitio en función del tamaño de la pantalla de su dispositivo.
-- 
-- 
-
 [Archivo de Figma](https://www.figma.com/file/gY397ySAP5oGdNuEbFdSpH/CMS---Equipo-3?type=design&node-id=0-1&mode=design&t=u2Fb8Yf8vykDra65-0)
 
 [Trello](https://trello.com/b/4FncHCwr/cms)
